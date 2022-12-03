@@ -3,10 +3,9 @@
 ## 0. Data
 The datasets used in the paper can be found at [link](https://drive.google.com/file/d/1aAJCZbXNHyraJ6Mi13dSbe7pTyfPXha0/view?usp=sharing). 
 
-After testing on over 20 datasets with each has less than 100 images, this GAN converges on 80% of them.
-I still cannot summarize an obvious pattern of the "good properties" for a dataset which this GAN can converge on, please feel free to try with your own datasets.
+Please feel free to try with your own datasets.
 
-please put these datasets to 'data' directory created by yourself.
+Please put these datasets to 'data' directory created by yourself.
 
 ## 1. Description
 The code is structured as follows:
@@ -38,7 +37,7 @@ train derived GAN, please call:
 sh ./exps/derive.sh
 ```
 
-Project will automatically generate a file directiory 'log', you can find models and logs in it.
+Project will automatically generate a directiory 'log', you can find models and logs in it.
 
 ## 3. Acknowledgement
 Our project thanks to the FastGAN [link] (https://github.com/odegeasslbc/FastGAN-pytorch) and AutoGAN [link] (https://github.com/TAMU-VITA/AutoGAN)
